@@ -1,0 +1,21 @@
+{
+  "name": "Gamekit",
+  "config": {
+    "serviceparent": 8,
+    "deepsdk": "1.0.81",
+    "gamedescriptorplugin": "1.0.9",
+    "verifyplugin": "1.0.7"
+  },
+  "devDependencies": {
+    "adm-zip": "0.4.7",
+    "fs-extra": "1.0.0",
+    "opn": "^4.0.2"
+  },
+  "scripts": {
+    "build": "node resources/scripts/build.js",
+    "project": "node resources/scripts/project.js",
+    "maveninstall": "node resources/scripts/maveninstall.js",
+    "launch": "node resources/scripts/launch.js",
+    "server": "node resources/scripts/server.js"
+  }
+}
