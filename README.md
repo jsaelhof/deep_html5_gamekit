@@ -64,12 +64,19 @@ You should now see the game loading screen in your browser. When you click the "
 ###### Complete List of Commands
 
 ```npm run maveninstall```:  Installs maven dependencies. Only needs to be done once.
+
 ```npm run server deploy```: Unzips the webserver. Only needs to be done once.
+
 ```npm run server start```: Starts the webserver on port localhost:8080. Remains running until stopped.
+
 ```npm run server stop```: Stops the webserver. Will fail if the server is not running.
+
 ```npm run project <game id> <skin id>```: Creates a new blank game project from a template. Run once for each project you wish to work on. Skin Id is optional. If not specified, a skin called "default" is created.
+
 ```npm run build <game id>```: Builds the project with the specified game id and deploys it to the local webserver. Run every time you make a change that you would like to test.
+
 ```npm run launch <game id> <skin id>```: Opens the specified game using the specified skin in the default browser. This is optional but helps to ensure the correct URL is used.
+
 ---
 
 ### Important Concepts
